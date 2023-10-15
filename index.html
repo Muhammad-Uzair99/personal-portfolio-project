@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="text-xs sm:text-sm md:text-base lg:text-[1.8rem]">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./dist/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <title>Personal Portfolio Project</title>
 </head>
-<body>
-  <h1>Personal Portfolio Project</h1>
+<body class="font-['Poppins'] bg-background-900 text-text-100 box-border py-3">
+
+  <article id="page-wrapper" class="container min-h-[200vh] mx-auto bg-background-950 shadow-2xl shadow-background-950 rounded-lg overflow-hidden">
+
+    <header id="header" class="container w-full min-h-[2.5rem] flex justify-between items-center bg-primary-800 fixed top-0 shadow-xl shadow-primary-900">
+
+      <h1 class="w-1/2 sm:w-3/5 font-['Sofia'] font-semibold text-xl ps-4">Portfolio</h1>
+
+      <nav id="navbar" class="w-1/2 sm:w-2/5">
+        <ul id="nav-list" class="w-full flex justify-around items-center">
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+  </article>
 </body>
 </html>
